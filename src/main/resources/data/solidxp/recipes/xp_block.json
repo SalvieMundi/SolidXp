@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "solidxp:cluster_of_experience"
+        }
+    },
+    "result": {
+        "item": "solidxp:block_of_experience",
+        "count": 1
+    }
+}
