@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "solidxp:block_of_experience"
+        }
+    ],
+    "result": {
+        "item": "solidxp:cluster_of_experience",
+        "count": 9
+    }
+}

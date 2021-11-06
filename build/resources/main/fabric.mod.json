@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "solidxp",
+  "version": "1.0.0",
+
+  "name": "Solid Experience",
+  "description": "Adds a new experience ore and some other stuff",
+  "authors": [
+    "JensonTM"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC BY-NC-SA 3.0",
+  "icon": "assets/solidxp/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "jensontm.solid.xp.solidxpMain"
+    ]
+  },
+  "mixins": [
+    "solidxp.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

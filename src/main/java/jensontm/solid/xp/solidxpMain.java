@@ -35,7 +35,7 @@ public class solidxpMain implements ModInitializer {
 	//public static final EntityType<FATxpBottleEntity> FATxpBottleEntityType = Registry.register(Registry.ENTITY_TYPE, new Identifier("solidxp", "greater_experience_bottle"), FabricEntityTypeBuilder.<FATxpBottleEntity>create(SpawnGroup.MISC, FATxpBottleEntity::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackRangeBlocks(4).trackedUpdateRate(10).build());
 
 	private static ConfiguredFeature<?, ?> XP_VEIN_OVERWORLD = Feature.ORE.configure(new OreFeatureConfig(OreFeatureConfig.Rules.BASE_STONE_OVERWORLD, XP_VEIN.getDefaultState(), 4))
-		.range(new RangeDecoratorConfig(UniformHeightProvider.create(YOffset.aboveBottom(-40), YOffset.fixed(50)))).spreadHorizontally().repeat(12);
+		.range(new RangeDecoratorConfig(UniformHeightProvider.create(YOffset.getBottom(), YOffset.fixed(0)))).spreadHorizontally().repeat(12);
 		
 	@Override
 	public void onInitialize() {
